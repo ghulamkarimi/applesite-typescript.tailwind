@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../public/image/mainhome.jpeg") no-repeat center/cover;
+
+}
+
+.active {
+  color: yellow;
+}
+
+input {
+
+  padding: 4px 8px;
+  outline: none;
+  border-radius: 20px;
+}
+
+input::placeholder {
+  font-size: 0.7rem;
+}
