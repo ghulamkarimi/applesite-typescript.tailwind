@@ -7,10 +7,10 @@ import { AppContextProvider } from './AppContext.tsx'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
-  <AppContextProvider>
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </AppContextProvider>
+    <AppContextProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </AppContextProvider>
   </BrowserRouter>
 )

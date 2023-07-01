@@ -2,10 +2,10 @@ import { useContext } from "react";
 import { AppContext } from "../AppContext";
 
 const About = () => {
-  const {isLight}=useContext(AppContext)
+  const { isLight } = useContext(AppContext)
   return (
 
-    <div className={`bg-slate-500 p-10 ${isLight? "text-white":"text-black"} `}>
+    <div className={`bg-slate-500 p-10 ${isLight ? "text-white" : "text-black"} `}>
       <div className=" flex flex-col text-center justify-centergap-6">
         <h3 className="text-4xl">Apple at Work</h3>
         <p className="text-6xl">For two.</p>

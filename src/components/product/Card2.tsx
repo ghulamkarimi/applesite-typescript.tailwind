@@ -3,9 +3,9 @@ import { AppContext } from "../../AppContext"
 
 
 const Card2 = () => {
-  const {isLight}=useContext(AppContext)
+  const { isLight } = useContext(AppContext)
   return (
-    <div className={`bg-slate-600 flex justify-center ${isLight?"text-white ":"text-black "} `}>
+    <div className={`bg-slate-600 flex justify-center ${isLight ? "text-white " : "text-black "} `}>
       <div className="flex  p-12 justify-center gap-6 rounded-2xl">
         <img className=" h-96 w-[40vw] rounded-xl " src="/image/ima.jpeg" alt="imac" />
         <span className="flex flex-col gap-24 ">

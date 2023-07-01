@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "../../AppContext";
- 
+
 
 const Hero = () => {
-  const {isLight}=useContext(AppContext)
+  const { isLight } = useContext(AppContext)
   return (
-    <div className={`flex bg-slate-500 pt-10 flex-col ${isLight?"text-white":"text-black"} `}>
+    <div className={`flex bg-slate-500 pt-10 flex-col ${isLight ? "text-white" : "text-black"} `}>
       <p className="text-center ">
         Get a credit of €220 to €735 towards the purchase of an iPhone 14 or
         iPhone 14 Pro when you trade in an iPhone 11 or later.

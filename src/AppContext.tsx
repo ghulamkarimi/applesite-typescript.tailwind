@@ -22,8 +22,8 @@ export const AppContextProvider: React.FC<IAppProvider> = ({ children }) => {
     const [isLight, setIsLight] = useState(false);
     const [product, setProduct] = useState(Data.product);
     const [filter, setFilter] = useState("");
-    const getProduct = (idProduct: number)=> {
-        return product.find((id) =>id.id === idProduct);
+    const getProduct = (idProduct: number) => {
+        return product.find((id) => id.id === idProduct);
     }
 
     return (
