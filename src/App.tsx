@@ -11,8 +11,9 @@ const App = () => {
 
   return (
     <div className={` ${isLight ? " bg-slate-500  text-white " : "bg-slate-50  text-black"}`}>
+      <div className="pb-8">
       <Navbar />
-
+      </div>
       <Router />
 
       <Footer />
