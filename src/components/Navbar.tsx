@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
 
-        <header className={`flex items-center gap-5 justify-around py-3 ${isLight ?"bg-slate-600 text-white":"bg-slate-400 text-black "}`}>
+        <header className={`flex fixed top-0 w-[100vw] items-center gap-5 justify-around py-3 ${isLight ? "bg-slate-600 text-white" : "bg-slate-400 text-black "}`}>
             <BsApple className=" text-2xl" />
             <ul className="flex gap-5">
                 <li>
